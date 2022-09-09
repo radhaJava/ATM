@@ -30,6 +30,7 @@ For tranfer amount it will also check the entered user name which the customer w
 This account menu option will be shown after every process inorder for customer to do what they prefer to do until they logout of the account and their accoutn details are updated and read before every time this menu was shown to avoid false details to customer.
 Once thewy logout the user gets home page where they may either exit or login with other customer or signup.
 
+
 ## Technologies
             -User Stories(Jira)
             -UML Usecase diagram(Lucidchart)
@@ -40,5 +41,8 @@ Once thewy logout the user gets home page where they may either exit or login wi
 The above diagrams are find in Requirements folder .Step by step creation of how project requiremnt started with User Stories and task and also usecases and then sequence daigram and then class diagram and then to code is shown in screenshots.The entire process followed agile methodology.
 ## Launch
              To run the Jar file in commandprompt(cmd) using java -jar ATM.jar 
+### How to test/work with the project
+If the customers file is not there , it give a message and it will be created  while signup by customers and if the file is empty also  it will save customers details so try to add more customers by using signup option in first time and then login and try  using other deposit- update,tranfer- update , and many more options.
+Currently code is made for terminal based ,Inorder to work in IDE you can uncomment code for IDE and commet some code for terminal which was added in comments in code for easy understanding.
 ## Room for Improvements
 Project must have been checking the account details like userName with account details. It contains the authentication code for the user. The application handles any exception in a clean way (using exception classes and not only conditional statements) and prints out an error-message telling the user what the problem is,without ending or crashing the app.Include some unit test cases.
